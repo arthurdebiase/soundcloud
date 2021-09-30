@@ -842,7 +842,10 @@ h2 {
 .modal-background-wraper {
   position: fixed;
   z-index: 10000;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100vw;
   height: 100vh;
   -webkit-box-pack: center;
